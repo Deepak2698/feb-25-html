@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table,tr,th,td{
+            border: 2px solid brown;
+            text-align: center;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <table style="width: 50%;"> <!-- Start of Table -->
+            <tr> <!-- Table row -->
+                <th> <!-- table Heading-->
+                    ID
+                </th>
+                <th> <!-- table Heading-->
+                    name
+                </th>
+                <th> <!-- table Heading-->
+                    Salary
+                </th>
+            </tr>
+            <tr>
+                <td><!-- table data -->
+                    1
+                </td>
+                 <td><!-- table data -->
+                    Chandan
+                </td>
+                <td><!-- table data -->
+                    20,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Yogesh
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Nikita
+                </td>
+                <td>
+                    80,000
+                </td>
+            </tr>
+        </table>
+
+<br>
+<br>
+<hr>
+        <!-- Rowspan
+                It Merges the rows of your table 
+        -->
+
+        <h4> Rowspan</h4>
+        <table style="width: 50%;">
+            <tr>
+                <td>Value</td>
+                <td>Value</td>
+                <td rowspan="4">Value</td>
+            </tr>
+            <tr>
+                <td>Value</td>
+                <td>Value</td>
+                
+            </tr>
+            <tr>
+                <td>Value</td>
+                <td rowspan="2">Value</td>
+                
+            </tr>
+            <tr>
+                <td>Value</td>
+                
+               
+            </tr>
+        </table>
+
+
+<br>
+<br>
+<hr>
+
+        <!-- ColSpan 
+                It Merges the columns of your table
+        -->
+
+        <h3>Colspan</h3>
+
+        <table style="width: 50%;">
+            <tr>
+                <td>Value</td>
+                <td>Value</td>
+                <td>Value</td>
+            </tr>
+            <tr>
+                <td>Value</td>
+                <td colspan="2">Value</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">Value</td>
+                <td>Value</td>
+                
+            </tr>
+            <tr>
+                <td>Value</td>
+                <td>Value</td>
+                <td>Value</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
